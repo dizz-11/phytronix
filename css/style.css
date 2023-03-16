@@ -39,8 +39,9 @@ body {
     min-height: 100%;
     background-image: url("../images/Phytronix_Kiosque_2023_concept 2.jpg");
     background-size: cover;
+	filter: grayscale(100%);
 
-    transition: flex-grow .3s;
+    transition: flex-grow .3s, filter 1s;
 }
 
 .rightPart {
@@ -55,18 +56,21 @@ body {
     background-image: url("../images/AdobeStock_5733215.jpeg");
     background-size: cover;
     background-position: right;
+	filter: grayscale(100%);
 
-    transition: flex-grow .3s;
+    transition: flex-grow .3s, filter 1s;
 }
 
 .leftPart:hover {
     flex-grow: 2;
+	filter: grayscale(0%);
 
-    transition: flex-grow .3s;
+    transition: flex-grow .3s, filter 1s;
 }
 
 .rightPart:hover {
     flex-grow: 2;
+	filter: grayscale(0%);
 
-    transition: flex-grow .3s;
+    transition: flex-grow .3s, filter 1s;
 }
